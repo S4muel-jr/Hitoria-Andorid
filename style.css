@@ -251,7 +251,7 @@ aside > p {
     border-radius: 5px;
 }
       
-footer  p{       /*configuaracao do rodape*/
+footer p {       /*configuaracao do rodape*/
 
     background-color: #087508;
     text-align:center;
@@ -260,9 +260,13 @@ footer  p{       /*configuaracao do rodape*/
     font-family:var(--font-destaque);
     color:black;
 }
-footer a:hover { 
+footer  a:hover { 
     background-color: white;
 }
+footer a {
+    color: black;
+}
+
 .link-contato {
     color: black;
     font-weight: normal;
